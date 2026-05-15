@@ -345,7 +345,6 @@ box-shadow: 0 4px 15px rgb(138, 90, 214, 0.7) }
 
 .badge-purple{
     background-color: #AC70FF;
-    column-rule: black;
     padding: 2px 15px;
     border-radius: 20px;
     font-weight: 700;
