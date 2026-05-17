@@ -201,7 +201,8 @@ h4{
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 3px solid #fff;
+    background: white;
+    border: 1px solid #000;
     border-radius: 0 50px 150px 100px;
     top: 15px;
     left: 15px;
@@ -228,13 +229,14 @@ h4{
 .stats-card{
     background: white;
     border-radius: 20px;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     align-items: center;}
 
 .stat-item{
     text-align: center;
     flex: 1;
+    boder-radius: 15px;
     padding: 10px;
     transition: 0.3s;}
 
