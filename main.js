@@ -35,10 +35,7 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             // Menambahkan class active saat elemen masuk layar
             entry.target.classList.add('active');
-        } else {
-            // Opsional: Hapus baris ini jika ingin animasi hanya sekali saja
-            entry.target.classList.remove('active');
-        }
+        } 
     });
 }, {
     threshold: 0.15 // Animasi mulai saat 15% bagian elemen sudah terlihat
