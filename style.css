@@ -164,7 +164,15 @@ h4{
     overflow: hidden;
     display: flex;
     align-items: end;
-    justify-content: center;}
+    justify-content: center;
+    animation: floatImage 4s ease-in-out infinite;}
+
+@keyframes floatImage{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-15px);}
+    100%{transform: translateY(0);}
+}
+
 
 .photo-box img{
     width: 260px;
@@ -174,7 +182,14 @@ h4{
 /* ABOUT */
 .about-section{
     background: linear-gradient(#DEC7FF, #AC70FF);
+    animation: gradientMove 10s ease infinite;
     padding-bottom: 50px;}
+
+@keyframes gradientMove{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
 
 .about-title {
     background-color: #AC70FF;
